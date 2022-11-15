@@ -6,6 +6,11 @@ extern Hazel::Application* Hazel::CreateApplication();
 
 int main(int argc, char** argv) {
 
+    Hazel::Log::Init();
+
+    HZ_CORE_WARN("Init poin t");
+    HZ_CORE_INFO("Hello!");
+
     auto app= Hazel::CreateApplication();
 
     app->Run();

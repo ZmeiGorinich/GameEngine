@@ -34,6 +34,9 @@ public:
 
     virtual void OnImGuiRender() override
     {
+        ImGui::Begin("Test");
+        ImGui::Text("hi");
+        ImGui::End();
     }
 
 };

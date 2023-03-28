@@ -8,9 +8,5 @@ namespace Hazel {
     {
     }
 
-    Layer::~Layer()
-    {
-
-    }
 
 }

@@ -2,7 +2,7 @@
 
 #include "OrthographicCamera.h"
 
-namespace Hazel {
+namespace Hazel { 
 
     class Renderer2D
     {
@@ -18,4 +18,4 @@ namespace Hazel {
         static void DrawQuad(const glm::vec3& position, const glm::vec2& size, const glm::vec4& color);
     };
 
-}
+} 

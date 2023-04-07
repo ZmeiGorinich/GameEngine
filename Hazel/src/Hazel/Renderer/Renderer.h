@@ -11,6 +11,7 @@ namespace Hazel {
     {
     public:
         static void Init();
+        static void OnWindowResize(uint32_t widht,uint32_t height);
         static void BeginScene(OrthographicCamera& camera);
         static void EndScene();
 
